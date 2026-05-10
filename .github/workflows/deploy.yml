@@ -13,6 +13,9 @@ permissions:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    env:
+      # Opt into Node 24 for JS actions to avoid deprecation warning
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,17 +26,15 @@ jobs:
           node-version: '20.x'
 
       - name: Install dependencies
-        run: npm ci
-        working-directory: Portfolio
+        run: npm install
 
       - name: Build project
         run: npm run build
-        working-directory: Portfolio
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'Portfolio/dist'
+          path: 'dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
