@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pizda",
+    "slug": "pizda",
+    "title": "PIZDA",
+    "tagline": "Policy Intelligence for Zero-Trust Decision Automation",
+    "body_md": "## Overview\n\nPIZDA is an AI governance control plane that intercepts every LLM request to enforce EU AI Act, GDPR, and data sovereignty policies in real-time. It sits between applications and LLM providers as a transparent policy enforcement layer.\n\n## Problem\n\nAs LLM adoption accelerates, organizations face growing regulatory pressure from the EU AI Act and GDPR. Existing solutions either block LLM use entirely or rely on post-hoc auditing — neither is suitable for production agentic systems.\n\n## Approach\n\nPIZDA implements a zero-trust model: every LLM request is intercepted, evaluated against OPA/Rego policy rules, and classified using an XGBoost model trained on regulatory violation patterns. SHAP values provide explainability for every policy decision.\n\n## Technical Architecture\n\n- **Policy Engine**: OPA/Rego for declarative policy rules (EU AI Act, GDPR, data sovereignty)\n- **ML Classifier**: XGBoost + SHAP for risk scoring and explanation\n- **Proxy Layer**: Go-based reverse proxy with sub-10ms overhead\n- **Dashboard**: Next.js admin console for policy management and audit trails\n- **Storage**: Postgres (audit logs) + Redis (rate limiting, caching)\n- **Deployment**: Docker Compose, production-ready\n\n## Outcomes\n\n- Real-time policy enforcement with <10ms added latency\n- Full audit trail for regulatory compliance\n- Explainable risk scores for every LLM interaction\n- Support for 15+ policy rules covering EU AI Act requirements",
+    "tech_stack": ["Go", "Python", "PostgreSQL", "Redis", "OPA/Rego", "XGBoost", "SHAP", "Next.js", "Docker"],
+    "tags": ["Agentic AI", "ML Governance", "EU AI Act"],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 0
+  },
+  {
+    "id": "pqc-tls",
+    "slug": "pqc-tls-authentication",
+    "title": "PQC-TLS Authentication System",
+    "tagline": "Post-Quantum Secure API Layer replacing RSA-JWT",
+    "body_md": "## Overview\n\nA complete post-quantum authentication stack that replaces RSA-JWT with CRYSTALS-Dilithium (NIST Level-3) digital signatures, integrated into a containerized FastAPI + PostgreSQL + Redis backend.\n\n## Problem\n\nRSA and ECDSA digital signatures are vulnerable to Shor's algorithm on quantum computers. Organizations need to migrate authentication infrastructure to NIST-standardized PQC algorithms before quantum computers become practical.\n\n## Approach\n\nImplemented CRYSTALS-Dilithium signature scheme via liboqs-python as a drop-in replacement for JWT-based authentication. Built comprehensive benchmarking infrastructure to compare PQC vs classical signature schemes under load.\n\n## Technical Architecture\n\n- **Auth**: CRYSTALS-Dilithium (NIST Level-3) via liboqs-python\n- **Backend**: FastAPI + PostgreSQL + Redis (Docker Compose)\n- **Key Management**: PQC key generation, secure storage, automated rotation\n- **Dashboard**: React + WebSocket for live authentication event feed\n- **RBAC**: Per-identity risk scoring and policy editor\n\n## Outcomes\n\n- Benchmarked Dilithium vs RSA-2048 and ECDSA across 10,000 concurrent requests\n- Demonstrated NIST Level-3 security with acceptable performance overhead\n- End-to-end demo-ready system delivered in 2-week cycle",
+    "tech_stack": ["Python", "FastAPI", "CRYSTALS-Dilithium", "liboqs", "PostgreSQL", "Redis", "Docker", "React", "WebSocket"],
+    "tags": ["PQC", "Security"],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 1
+  },
+  {
+    "id": "nyayaai",
+    "slug": "nyayaai",
+    "title": "NyayaAI",
+    "tagline": "Hierarchical Multi-Agent Legal Intelligence Platform",
+    "body_md": "## Overview\n\nA 16-agent hierarchical pipeline that automates structured extraction of legal issues, arguments, and precedents from 50–200 page Indian court judgments into structured JSON.\n\n## Problem\n\nIndian court judgments are lengthy, unstructured legal documents. Manual extraction of key legal issues, arguments, and precedents is time-consuming and error-prone.\n\n## Approach\n\nBuilt a hierarchical multi-agent system where specialized agents handle different aspects of legal document analysis. Model Context Protocol (MCP) enables real-time inter-agent communication without database intermediaries.\n\n## Agent Architecture\n\n- **Extraction Layer**: Document parser, issue identifier, argument extractor, precedent finder\n- **Intelligence Layer**: Judge profiler, counter-argument predictor, outcome predictor\n- **Validation Layer**: Source-span verification, cross-reference validator, consistency checker\n- **Orchestration**: GenW.AI Agent Builder with MCP\n\n## Outcomes\n\n- 85%+ structured output accuracy on test judgments\n- Significant latency reduction vs database-intermediary approaches\n- Handles 50–200 page judgments end-to-end",
+    "tech_stack": ["Python", "GenW.AI", "Agent Builder", "MCP", "Multi-Agent Orchestration", "NLP"],
+    "tags": ["Agentic AI", "Legal AI"],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 2
+  },
+  {
+    "id": "finveritas",
+    "slug": "finveritas",
+    "title": "Finveritas",
+    "tagline": "Explainable AI Financial Statement Analysis Platform",
+    "body_md": "## Overview\n\nA constraint-aware, offline-first multi-agent financial analysis platform aligned with Basel III Pillar-2 principles for explainable internal credit risk assessment.\n\n## Problem\n\nFinancial institutions need explainable AI for credit risk assessment under Basel III Pillar-2. Black-box LLM outputs are unsuitable for regulatory environments requiring auditability.\n\n## Approach\n\nDesigned specialized financial analysis agents with deterministic output pipelines and cross-reference validation. Eliminated black-box reasoning in favor of auditable chains.\n\n## Technical Architecture\n\n- **Agents**: Revenue Stability, Liquidity Monitoring, Balance Sheet Risk, Cross-Reference Validator\n- **RAG**: ChromaDB vector store with Bloomberg PDF parsing\n- **Reasoning**: Deterministic, auditable reasoning chains (LangChain)\n- **UI**: Bloomberg-style terminal dashboard in Streamlit\n\n## Outcomes\n\n- Regulatory alignment with Basel III Pillar-2 requirements\n- Fully explainable, auditable AI decisions for credit risk assessment\n- Interactive drill-down financial investigation dashboard",
+    "tech_stack": ["Python", "LangChain", "LLM Agents", "RAG", "ChromaDB", "Streamlit", "Basel III"],
+    "tags": ["ML Governance", "BFSI"],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": false,
+    "display_order": 3
+  }
+]

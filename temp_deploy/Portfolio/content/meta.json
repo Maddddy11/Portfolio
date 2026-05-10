@@ -1,0 +1,19 @@
+{
+  "site_name": "Mayank Hete",
+  "site_url": "https://mayankhete.dev",
+  "default_title": "Mayank Hete — Research Engineer",
+  "default_description": "Final-year B.Tech CS at SIT Pune. Building agentic systems for high-stakes domains — PQC security, legal AI, ML governance.",
+  "og_image": "/images/og-default.jpg",
+  "twitter_handle": null,
+  "github": "https://github.com/Rancidcake",
+  "linkedin": null,
+  "email": "mayankrajeshhete@gmail.com",
+  "nav_links": [
+    { "label": "PROJECTS", "href": "/projects" },
+    { "label": "RESEARCH", "href": "/publications" },
+    { "label": "EXPERIENCE", "href": "/experience" },
+    { "label": "ABOUT", "href": "/about" },
+    { "label": "NEWS", "href": "/news" },
+    { "label": "CONTACT", "href": "/contact" }
+  ]
+}

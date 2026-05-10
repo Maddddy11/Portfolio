@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pbl2-first-rank",
+    "title": "1st Rank — PBL-2, CS Department",
+    "subtitle": "Symbiosis Institute of Technology, Pune · Industry Expert Jury",
+    "year": 2025,
+    "date": "2025-05-07",
+    "category": "recognition",
+    "description_md": "Group 61 secured 1st Rank in PBL-2 (Project-Based Learning, Phase 2) across the entire Computer Science department at SIT Pune. The decision was made by an independent jury of industry experts — not faculty — which makes this result especially meaningful.\n\n**Team:** Anshul Ravindra Mandekar, Avi S Gupta, Aman Vats, Mayank Rajesh Hete.",
+    "image": "/images/achievements/pbl-first-rank.jpg",
+    "url": null,
+    "display_order": 0
+  },
+  {
+    "id": "sci-2026-certificates",
+    "title": "Certificate of Appreciation — SCI 2026",
+    "subtitle": "Swinburne University · 8th Intl. Conference on Smart Computing & Informatics",
+    "year": 2026,
+    "date": "2026-04-29",
+    "category": "recognition",
+    "description_md": "Received Certificate of Appreciation from Swinburne University Vietnam for presenting three accepted papers at SCI 2026 (8th International Conference on Smart Computing and Informatics), held in Hanoi, Vietnam on April 28–29, 2026.",
+    "image": "/images/achievements/sci-2026-certificates.jpg",
+    "url": null,
+    "display_order": 1
+  },
+  {
+    "id": "trackshift-top10",
+    "title": "Top 10 Finalist",
+    "subtitle": "TrackShift Hackathon · Plaksha University",
+    "year": 2025,
+    "date": "2025-01-01",
+    "category": "hackathon",
+    "description_md": "Selected among the top 10 teams nationally at the TrackShift Hackathon hosted by Plaksha University.",
+    "image": null,
+    "url": null,
+    "display_order": 2
+  },
+  {
+    "id": "protech-2026",
+    "title": "Organizing Committee — ProTech 2026",
+    "subtitle": "SIT Pune · 700+ Participants, 300+ Teams",
+    "year": 2026,
+    "date": "2026-01-01",
+    "category": "leadership",
+    "description_md": "Built an RBAC judging system (Firestore + JavaScript) for ProTech 2026, managing 700+ participants across 300+ teams. Handled the full technical infrastructure for the event's judging and scoring pipeline.",
+    "image": null,
+    "url": null,
+    "display_order": 3
+  },
+  {
+    "id": "acm-cybersec",
+    "title": "Cybersecurity Coordinator",
+    "subtitle": "ACM SITP Chapter · SIT Pune",
+    "year": 2025,
+    "date": "2025-01-01",
+    "category": "leadership",
+    "description_md": "Led cybersecurity initiatives for the ACM student chapter at SIT Pune, organizing workshops, CTFs, and awareness sessions.",
+    "image": null,
+    "url": null,
+    "display_order": 4
+  },
+  {
+    "id": "gdsc-design",
+    "title": "Design & Media Coordinator",
+    "subtitle": "Google Developer Student Clubs · SIT Pune · 500+ Members",
+    "year": 2025,
+    "date": "2024-08-01",
+    "category": "leadership",
+    "description_md": "Coordinated design and media strategy for GDSC SIT Pune, one of the largest GDSC chapters in the region with 500+ members. Managed visual identity, event branding, and digital content for 2024–2025.",
+    "image": null,
+    "url": null,
+    "display_order": 5
+  },
+  {
+    "id": "msft-copilot-top5",
+    "title": "Top 5 — Microsoft Copilot Challenge",
+    "subtitle": "Microsoft · SIT Pune",
+    "year": 2024,
+    "date": "2024-01-01",
+    "category": "hackathon",
+    "description_md": "Placed top 5 at the Microsoft Copilot Challenge at SIT Pune, competing against the full CS department cohort.",
+    "image": null,
+    "url": null,
+    "display_order": 6
+  }
+]

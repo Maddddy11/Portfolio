@@ -1,0 +1,41 @@
+[
+  {
+    "id": "pqc-quic-2026",
+    "title": "Adaptive PQC Key-Encapsulation for High-Reliability Multipath QUIC Telemetry",
+    "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
+    "venue_short": "SCI 2026",
+    "location": "Swinburne University, Hanoi, Vietnam",
+    "authors": "Mayank Rajesh Hete et al.",
+    "abstract": "Designed a quantum-resistant communication framework using NIST Level-3 PQC primitives (lattice-based KEM) and multipath QUIC transport protocol for mission-critical and contested networks. Formulated multipath scheduling as a constrained optimization problem to minimize end-to-end latency and packet loss under adversarial network conditions.",
+    "pdf_url": null,
+    "published_date": "2026-04-28",
+    "bibtex": "@inproceedings{hete2026pqcquic,\n  title={Adaptive PQC Key-Encapsulation for High-Reliability Multipath QUIC Telemetry},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={8th International Conference on Smart Computing and Informatics (SCI 2026)},\n  year={2026},\n  organization={Swinburne University, Hanoi, Vietnam}\n}",
+    "display_order": 0
+  },
+  {
+    "id": "courtroom-llm-2026",
+    "title": "LLM-Based Courtroom Simulation for Exploring Indian Civil Law Cases",
+    "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
+    "venue_short": "SCI 2026",
+    "location": "Swinburne University, Hanoi, Vietnam",
+    "authors": "Mayank Rajesh Hete et al.",
+    "abstract": "Built a multi-agent LLM platform processing unstructured Indian civil law corpora; applied NLP pipelines for role classification, argument extraction, and procedural simulation — reducing manual legal review time by 75%.",
+    "pdf_url": null,
+    "published_date": "2026-04-28",
+    "bibtex": "@inproceedings{hete2026courtroom,\n  title={LLM-Based Courtroom Simulation for Exploring Indian Civil Law Cases},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={8th International Conference on Smart Computing and Informatics (SCI 2026)},\n  year={2026},\n  organization={Swinburne University, Hanoi, Vietnam}\n}",
+    "display_order": 1
+  },
+  {
+    "id": "gans-urban-2026",
+    "title": "GANs in Urban Digital Twins: Systematic Review and Architecture for Policy Simulation",
+    "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
+    "venue_short": "SCI 2026",
+    "location": "Swinburne University, Hanoi, Vietnam",
+    "authors": "Mayank Rajesh Hete et al.",
+    "abstract": "Conducted a systematic literature review synthesizing 40+ papers across six urban AI domains; proposed a GAN-based simulation architecture for data-constrained developing cities.",
+    "pdf_url": null,
+    "published_date": "2026-04-28",
+    "bibtex": "@inproceedings{hete2026gans,\n  title={GANs in Urban Digital Twins: Systematic Review and Architecture for Policy Simulation},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={8th International Conference on Smart Computing and Informatics (SCI 2026)},\n  year={2026},\n  organization={Swinburne University, Hanoi, Vietnam}\n}",
+    "display_order": 2
+  }
+]
