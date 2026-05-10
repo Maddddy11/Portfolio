@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio/',
-  // Ensure exported pages become folder/index.html so gh-pages serves them correctly
+  // basePath: '/Portfolio',  // Commented for development - uncomment for GitHub Pages deployment
+  // assetPrefix: '/Portfolio/',  // Commented for development - uncomment for GitHub Pages deployment
   trailingSlash: true,
   images: {
     unoptimized: true,
