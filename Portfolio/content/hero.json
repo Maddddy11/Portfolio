@@ -1,0 +1,30 @@
+{
+  "photo": "/images/hero/mayank-profile.jpg",
+  "photo_caption": "FILE 003 / 047 · HANOI VN · 04.2026 · F/1.8 · 1/250s · ISO 200",
+  "display_name_line1": "MAYANK",
+  "display_name_line2": "HETE",
+  "tagline": "Building agentic systems for high-stakes domains.",
+  "status_lines": [
+    "SYSTEM: ONLINE",
+    "ROLE: research_engineer",
+    "STATUS: available_q1_2027",
+    "LOCATION: 18.5204°N, 73.8567°E",
+    "LAST_DEPLOY: auto"
+  ],
+  "cta_primary": { "label": "VIEW PROJECTS", "href": "/projects" },
+  "cta_secondary": { "label": "GET IN TOUCH", "href": "/contact" },
+  "cta_tertiary": { "label": "GITHUB", "href": "https://github.com/Rancidcake" },
+  "ticker_items": [
+    "AVAILABLE FOR: research_internships",
+    "ai_ml_engineering",
+    "pqc_security",
+    "start_date: jan_2027",
+    "contact: mayankrajeshhete@gmail.com"
+  ],
+  "stats": [
+    { "value": 3, "suffix": "×", "label": "SCI Papers" },
+    { "value": 4, "suffix": "+", "label": "Projects" },
+    { "value": 7.89, "suffix": "", "label": "CGPA" },
+    { "value": 16, "suffix": "-Agent", "label": "Pipeline" }
+  ]
+}

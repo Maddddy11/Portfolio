@@ -1,0 +1,36 @@
+{
+  "name": "Mayank Hete",
+  "tagline": "Building agentic systems for high-stakes domains.",
+  "bio_short": "Final-year CS engineer at SIT Pune. 3× SCI-indexed researcher building at the intersection of Agentic AI, Post-Quantum Cryptography, and ML governance.",
+  "bio_long": "I'm a final-year B.Tech Computer Science student at Symbiosis Institute of Technology, Pune (CGPA: 7.89/10), working at the intersection of Agentic AI, Post-Quantum Cryptography, and ML governance.\n\nMy research focuses on quantum-resistant communications and multi-agent LLM systems. I've published three SCI-indexed conference papers at SCI 2026 (Swinburne University, Hanoi, Vietnam, April 2026) — on adaptive PQC key-encapsulation over multipath QUIC, LLM-based courtroom simulation for Indian civil law, and GAN architectures for urban digital twins.\n\nCurrently building PIZDA — a Policy Intelligence for Zero-Trust Decision Automation system — an AI governance control plane that intercepts every LLM request to enforce EU AI Act, GDPR, and data sovereignty policies.\n\nSeeking research internships and AI/ML engineering roles in security-focused or LLM-driven product teams.",
+  "location": "Pune, India",
+  "coordinates": "18.5204°N, 73.8567°E",
+  "email": "mayankrajeshhete@gmail.com",
+  "phone": "+91 96575 88763",
+  "linkedin": "https://linkedin.com/in/mayankhete",
+  "github": "https://github.com/Rancidcake",
+  "status": "available_q1_2027",
+  "role": "research_engineer",
+  "seeking": ["research_internships", "ai_ml_engineering", "pqc_security"],
+  "education": {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "Symbiosis Institute of Technology, Pune",
+    "expected": "April 2027",
+    "cgpa": "7.89 / 10.0",
+    "coursework": ["Cryptography", "Network Security", "Data Analytics", "Database Management Systems", "Systems Programming"]
+  },
+  "skills": {
+    "Programming Languages": ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Go", "SQL", "Shell Scripting"],
+    "AI / Machine Learning": ["Large Language Models", "Agentic AI", "RAG", "NLP", "Prompt Engineering", "Fine-tuning", "Hugging Face Transformers"],
+    "AI Frameworks": ["LangChain", "LangGraph", "LlamaIndex", "CrewAI", "AutoGen", "MCP", "Agent Builder", "Multi-Agent Orchestration"],
+    "Vector Databases": ["FAISS", "ChromaDB", "Pinecone"],
+    "Post-Quantum Cryptography": ["NIST PQC Standards", "CRYSTALS-Kyber", "CRYSTALS-Dilithium", "Lattice-based KEM", "liboqs", "QUIC Transport Security", "TLS/mTLS"],
+    "Cloud & Infrastructure": ["Docker", "AWS (EC2, CloudWatch)", "GCP", "Redis", "PostgreSQL", "FastAPI", "Firebase", "WebSocket", "Linux", "REST APIs"],
+    "Domain Knowledge": ["BFSI & Basel III Pillar-2", "EU AI Act", "Indian Legal Systems", "Telecom Network Security"]
+  },
+  "certifications": [
+    { "name": "LangChain Academy: Introduction to LangChain", "year": 2026 },
+    { "name": "Full Stack Generative & Agentic AI — Udemy (32.5 hours)", "year": 2026 },
+    { "name": "Cloud Computing Fundamentals — IBM SkillsBuild", "year": 2026 }
+  ]
+}

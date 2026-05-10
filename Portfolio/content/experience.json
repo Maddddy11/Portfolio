@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ratibpal-2025",
+    "organization": "RatibPal",
+    "role": "Software Engineering Intern — Customer Solutions Developer",
+    "location": "Pune, India",
+    "type": "Full-Time Internship",
+    "start_date": "2025-06-01",
+    "end_date": "2025-12-31",
+    "description_md": "- Translated customer requirements into automated technical workflows; engineered RESTful API integrations and an SQLite offline-first architecture to ensure robust, reliable customer-facing experiences.\n- Built real-time monitoring dashboards on AWS (CloudWatch, EC2) tracking service health, API latency, and error rates; collaborated cross-functionally with design, engineering, and product teams.\n- Improved system observability and reduced manual incident triage time through automated alerting pipelines and structured logging across cloud-hosted microservices.",
+    "tech": ["Python", "RESTful APIs", "SQLite", "AWS CloudWatch", "AWS EC2", "Microservices"],
+    "display_order": 0
+  }
+]
