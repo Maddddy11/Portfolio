@@ -33,7 +33,7 @@ Location: ${profile.location}
 Email: ${profile.email}
 GitHub: ${profile.github}
 Bio: ${profile.bio_short}
-Education: ${profile.education.degree} in ${profile.education.field} at ${profile.education.institution} (CGPA: ${profile.education.cgpa}/10, graduating ${profile.education.graduation_year})
+Education: ${profile.education.degree} at ${profile.education.institution} (CGPA: ${profile.education.cgpa}/10, graduating ${profile.education.expected})
 
 Projects:
 ${projects.map(p => `- ${p.title}: ${p.tagline}`).join('\n')}
