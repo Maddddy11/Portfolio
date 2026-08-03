@@ -1,0 +1,109 @@
+[
+  {
+    "id": "finveritas",
+    "slug": "finveritas",
+    "title": "Finveritas",
+    "tagline": "Explainable Financial Analytics Platform — Rank 1, PBL-2 Conclave 2026",
+    "body_md": "## Overview\n\nAward-winning financial analytics platform built with a 7-agent LangGraph system, extracting 50+ financial metrics from Bloomberg PDFs for Basel III Pillar-2 compliance.\n\n## Problem\n\nFinancial institutions struggle to explain AI decisions under Basel III Pillar-2 and RBI guidelines. Black-box models fail regulatory audits; manual analysis is error-prone and slow.\n\n## Approach\n\nDecoupled computation (Python) from narration (LLM) to achieve a 1.00 correctness score and 0.833 cross-reference coverage. Engineered a 7-agent LangGraph pipeline extracting 50+ financial metrics from Bloomberg PDFs.\n\n## Technical Architecture\n\n- **Agent Pipeline**: 7-agent LangGraph system for structured financial extraction\n- **Metric Extraction**: 50+ BFSI metrics from Bloomberg PDFs\n- **Compliance Engine**: Basel III Pillar-2 alignment with automated violation detection\n- **Decoupling**: Python computation layer separate from LLM narration layer\n- **Dashboard**: Executive-ready compliance reporting\n\n## Outcomes\n\n- **Rank 1 out of 20+ teams** at PBL-2 Industry Conclave 2026\n- Judges: HDFC, SG Analytics, Tata Motors — live adversarial evaluation\n- 1.00 correctness score · 0.833 cross-reference coverage\n- Basel III Pillar-2 aligned",
+    "tech_stack": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "PostgreSQL",
+      "Streamlit",
+      "Basel III"
+    ],
+    "tags": [
+      "BFSI",
+      "Compliance",
+      "Awarded",
+      "Live Application"
+    ],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 0
+  },
+  {
+    "id": "forge",
+    "slug": "forge",
+    "title": "FORGE",
+    "tagline": "Industrial Audit & Compliance Platform",
+    "body_md": "## Overview\n\nIndustrial audit and compliance platform built on a 5-model dbt data pipeline over DuckDB, processing 20,631 degradation cycles with full audit logging and automated risk escalation.\n\n## Problem\n\nIndustrial systems lack structured audit trails and automated risk escalation for equipment degradation cycles. Manual compliance tracking is error-prone and lacks real-time visibility.\n\n## Approach\n\nBuilt a 5-model dbt pipeline over DuckDB processing 20,631 degradation cycles. Implemented 3-tier RBAC and automated risk escalation (≥ 0.70 threshold) with context-rich tracking using Docker and GitHub Actions.\n\n## Technical Architecture\n\n- **Data Pipeline**: 5-model dbt pipeline over DuckDB\n- **Audit Logging**: Full audit trail for every degradation cycle\n- **RBAC**: 3-tier role-based access control\n- **Risk Escalation**: Automated alerts at ≥ 0.70 risk score with context\n- **Infrastructure**: Docker + GitHub Actions CI/CD\n\n## Outcomes\n\n- Processed 20,631 degradation cycles\n- Full audit logging with context-rich tracking\n- Automated risk escalation pipeline",
+    "tech_stack": [
+      "dbt",
+      "DuckDB",
+      "Python",
+      "Docker",
+      "GitHub Actions",
+      "RBAC",
+      "SQL"
+    ],
+    "tags": [
+      "Audit",
+      "Compliance",
+      "Industrial"
+    ],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 1
+  },
+  {
+    "id": "argus",
+    "slug": "argus",
+    "title": "ARGUS",
+    "tagline": "AI Governance Gateway & Policy Proxy",
+    "body_md": "## Overview\n\nAI governance gateway implementing JWT auth, PII masking (13 types via Presidio), XGBoost + SHAP risk scoring, and OPA/Rego rule enforcement with Redis rate limiting and per-tenant PostgreSQL budget tracking.\n\n## Problem\n\nAs LLM adoption accelerates, organizations face growing regulatory pressure. Every AI request needs real-time policy enforcement, PII protection, and explainable risk scoring.\n\n## Approach\n\nBuilt a governance gateway that sits between applications and LLM providers. Implements JWT auth, masks 13 PII types via Microsoft Presidio, scores risk with XGBoost + SHAP, and enforces OPA/Rego policies with Redis rate limiting.\n\n## Technical Architecture\n\n- **Auth**: JWT authentication with per-tenant enforcement\n- **PII Masking**: Microsoft Presidio — 13 PII types detected and redacted\n- **Risk Scoring**: XGBoost + SHAP for explainable risk assessment\n- **Policy Engine**: OPA/Rego for declarative governance rules\n- **Rate Limiting**: Redis with per-tenant PostgreSQL budget tracking\n\n## Outcomes\n\n- 13 PII types masked in real-time\n- Explainable risk scores via SHAP for every LLM interaction\n- Per-tenant budget and rate limit enforcement",
+    "tech_stack": [
+      "Python",
+      "OPA/Rego",
+      "XGBoost",
+      "SHAP",
+      "Microsoft Presidio",
+      "Redis",
+      "PostgreSQL",
+      "JWT",
+      "FastAPI"
+    ],
+    "tags": [
+      "AI Governance",
+      "Security",
+      "Compliance"
+    ],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 2
+  },
+  {
+    "id": "lex-orion",
+    "slug": "lex-orion",
+    "title": "Lex Orion",
+    "tagline": "Agentic Legal Intelligence Platform",
+    "body_md": "## Overview\n\nMulti-agent courtroom simulation using role-based personas (Judge, Lawyer, Witness) grounded in the Indian Kanoon corpus via FAISS RAG, driving a 75% reduction in manual legal citation review time.\n\n## Problem\n\nIndian legal research requires extensive manual review of case law. Citation verification and legal argument construction are time-consuming and error-prone without structured AI assistance.\n\n## Approach\n\nProgrammed a multi-agent system where each agent plays a specific courtroom role. The Indian Kanoon corpus is indexed via FAISS RAG, grounding all legal arguments in actual case law.\n\n## Technical Architecture\n\n- **Agent Roles**: Judge, Lawyer, Witness personas with distinct behavioral constraints\n- **RAG Layer**: FAISS-indexed Indian Kanoon corpus for grounded legal citations\n- **Orchestration**: Multi-agent coordination with conflict resolution\n- **Output**: Structured legal briefs with verifiable citations\n\n## Outcomes\n\n- 75% reduction in manual legal citation review time\n- Grounded in real Indian Kanoon case law corpus\n- Role-based agent coordination for structured courtroom simulation",
+    "tech_stack": [
+      "Python",
+      "LangChain",
+      "FAISS",
+      "RAG",
+      "Multi-Agent Systems",
+      "FastAPI",
+      "ChromaDB"
+    ],
+    "tags": [
+      "Legal AI",
+      "Agentic AI",
+      "Live Application"
+    ],
+    "repo_url": null,
+    "demo_url": null,
+    "image": null,
+    "featured": true,
+    "display_order": 3
+  }
+]

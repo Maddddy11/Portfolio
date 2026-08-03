@@ -1,0 +1,59 @@
+[
+  {
+    "id": "heidelai-2026",
+    "organization": "Heidelai Limited (Derivative AI Pvt. Ltd.)",
+    "role": "AI Engineering Intern",
+    "location": "Pune, India",
+    "type": "Internship",
+    "start_date": "2026-07-01",
+    "end_date": null,
+    "description_md": "- **Token Optimization:** Profiling production LLM API endpoints to eliminate context bloat and rewrite prompt structures; reduced token consumption while integrating changes into live backends without service interruption.",
+    "tech": [
+      "LLM Optimization",
+      "Prompt Engineering",
+      "Python",
+      "Backend Development"
+    ],
+    "display_order": 0
+  },
+  {
+    "id": "technowgreen-2026",
+    "organization": "Technowgreen Solutions Limited",
+    "role": "AI Research Consultant",
+    "location": "Pune, India",
+    "type": "Full-Time",
+    "start_date": "2026-06-01",
+    "end_date": "2026-07-01",
+    "description_md": "- **Enterprise Orchestration:** Designing agent orchestration for an 800+ tenant platform on NVIDIA AI-Q; engineered MAS state handoffs, data pipelines, and CI/CD workflows mapped across 5 compliance frameworks (GDPR, DPDP, HIPAA, SOC 2, CCPA).\n- **Quality Assurance:** Formulated 10–70 automated test cases per feature sprint to validate hallucination rates and context grounding.",
+    "tech": [
+      "NVIDIA AI-Q",
+      "Multi-Agent Systems",
+      "GDPR",
+      "DPDP",
+      "HIPAA",
+      "SOC 2",
+      "CCPA",
+      "CI/CD"
+    ],
+    "display_order": 1
+  },
+  {
+    "id": "ratibpal-2025",
+    "organization": "RatibPal",
+    "role": "Software Engineering Intern",
+    "location": "Remote",
+    "type": "Internship",
+    "start_date": "2025-06-01",
+    "end_date": "2025-12-31",
+    "description_md": "- **Backend Development:** Engineered 8+ REST API endpoints on AWS, cutting incident triage time by 40% via CloudWatch logging; built an offline-first SQLite synchronization layer handling 100+ daily transactions with zero data loss.",
+    "tech": [
+      "Python",
+      "REST APIs",
+      "AWS",
+      "CloudWatch",
+      "SQLite",
+      "Microservices"
+    ],
+    "display_order": 2
+  }
+]

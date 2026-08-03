@@ -1,0 +1,120 @@
+{
+  "name": "Mayank Hete",
+  "tagline": "Building enterprise AI systems at the intersection of LLM optimization, compliance, and financial infrastructure.",
+  "bio_short": "Final-year B.Tech CS student at SIT Pune (CGPA: 8.00/10). AI Engineering Intern at Heidelai & AI Research Consultant at Technowgreen. 5× published researcher across IEEE and Springer. CCNA certified.",
+  "bio_long": "I'm a final-year B.Tech Computer Science & Engineering student at Symbiosis Institute of Technology, Pune (CGPA: 8.00/10), specializing in enterprise AI infrastructure, backend platforms, and financial analytics software.\n\nCurrently engineering production LLM optimizations at Heidelai (Derivative AI Pvt. Ltd.), profiling LLM API endpoints to eliminate context bloat and rewrite prompt structures without service disruption. I consulted at Technowgreen Solutions on an 800+ tenant enterprise AI platform on NVIDIA AI-Q, designing agent orchestration, MAS state handoffs, and CI/CD workflows mapped across 5 compliance frameworks (GDPR, DPDP, HIPAA, SOC 2, CCPA).\n\nMy projects span explainable financial analytics (Finveritas — Rank 1, PBL-2 Conclave 2026), industrial audit pipelines (FORGE), AI governance gateways (Argus), and agentic legal intelligence (Lex Orion). I've published 5 peer-reviewed papers across IEEE and Springer LNNS, presented internationally at Swinburne University, Vietnam.\n\nSeeking research internships and AI/ML engineering roles in security-focused or LLM-driven product teams.",
+  "location": "Pune, India",
+  "coordinates": "18.5204°N, 73.8567°E",
+  "email": "mayankrajeshhete@gmail.com",
+  "phone": "+91 96575 88763",
+  "linkedin": "https://linkedin.com/in/mayankhete",
+  "github": "https://github.com/Rancidcake",
+  "status": "available_q1_2027",
+  "role": "ai_engineering_intern",
+  "seeking": [
+    "research_internships",
+    "ai_ml_engineering",
+    "llm_infrastructure"
+  ],
+  "education": {
+    "degree": "B.Tech Computer Science & Engineering",
+    "institution": "Symbiosis Institute of Technology, Pune",
+    "expected": "April 2027",
+    "cgpa": "8.00 / 10.0",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "DBMS",
+      "Cryptography",
+      "Network Security",
+      "Financial Computing",
+      "Distributed Systems",
+      "Operating Systems"
+    ]
+  },
+  "skills": {
+    "Languages": [
+      "Python (strong)",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "C++",
+      "SQL",
+      "Swift (iOS)",
+      "Shell Scripting"
+    ],
+    "AI & Frameworks": [
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "FAISS",
+      "ChromaDB",
+      "Multi-Agent Orchestration",
+      "Prompt Engineering",
+      "NVIDIA AI-Q"
+    ],
+    "Backend & Data": [
+      "FastAPI",
+      "Node.js",
+      "REST",
+      "WebSocket",
+      "JWT",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "DuckDB",
+      "dbt",
+      "SQLite",
+      "Docker",
+      "AWS"
+    ],
+    "Security & Compliance": [
+      "RBAC",
+      "OPA/Rego",
+      "Microsoft Presidio (PII)",
+      "XGBoost + SHAP",
+      "Audit Trails",
+      "GDPR",
+      "DPDP",
+      "HIPAA",
+      "SOC 2"
+    ],
+    "Tools & Operations": [
+      "Git",
+      "Jira (Agile/Scrum)",
+      "Postman",
+      "GitHub Actions",
+      "Streamlit",
+      "React",
+      "n8n",
+      "BRD",
+      "IEEE 830 SRS Documentation"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "LangChain Academy",
+      "issuer": "LangChain",
+      "year": 2026
+    },
+    {
+      "name": "Cisco CCNA",
+      "issuer": "Cisco",
+      "year": 2025
+    },
+    {
+      "name": "Nutanix NCA-6",
+      "issuer": "Nutanix",
+      "year": 2025
+    },
+    {
+      "name": "IBM Cloud Computing",
+      "issuer": "IBM",
+      "year": 2026
+    },
+    {
+      "name": "Full Stack GenAI & Agentic AI",
+      "issuer": "Certified Program",
+      "year": 2026
+    }
+  ]
+}

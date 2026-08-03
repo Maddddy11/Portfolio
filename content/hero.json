@@ -1,0 +1,30 @@
+{
+  "photo": "/images/hero/mayank-profile.jpg",
+  "photo_caption": "FILE 003 / 047 · HANOI VN · 04.2026 · F/1.8 · 1/250s · ISO 200",
+  "display_name_line1": "MAYANK",
+  "display_name_line2": "HETE",
+  "tagline": "AI Engineering Intern. 5× Published. CCNA Certified. Enterprise AI · LLM Optimization · Compliance.",
+  "status_lines": [
+    "SYSTEM: ONLINE",
+    "ROLE: ai_engineering_intern",
+    "CURRENT: heidelai + technowgreen",
+    "LOCATION: 18.5204°N, 73.8567°E",
+    "CGPA: 8.00 / 10.0"
+  ],
+  "cta_primary": { "label": "VIEW PROJECTS", "href": "/projects" },
+  "cta_secondary": { "label": "GET IN TOUCH", "href": "/contact" },
+  "cta_tertiary": { "label": "GITHUB", "href": "https://github.com/Rancidcake" },
+  "ticker_items": [
+    "WORK: ai_engineering_intern @ heidelai",
+    "EXPERTISE: enterprise_ai • llm_optimization • compliance",
+    "PUBLISHED: 5_peer_reviewed_papers",
+    "CERTIFIED: ccna • nutanix • langchain",
+    "EMAIL: mayankrajeshhete@gmail.com"
+  ],
+  "stats": [
+    { "value": 5, "suffix": "×", "label": "Published Papers" },
+    { "value": 4, "suffix": "+", "label": "Major Projects" },
+    { "value": 8.0, "suffix": "", "label": "CGPA" },
+    { "value": 800, "suffix": "+", "label": "Tenant Platform" }
+  ]
+}

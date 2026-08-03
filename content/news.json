@@ -1,0 +1,28 @@
+[
+  {
+    "id": "sci-2026-hanoi",
+    "slug": "sci-2026-hanoi-presentation",
+    "title": "Presented 3 Papers at SCI 2026 — Hanoi, Vietnam",
+    "category": "research",
+    "tags": ["PQC", "LLM", "GAN", "conference", "SCI 2026"],
+    "published_date": "2026-04-29",
+    "published": true,
+    "body_md": "Traveled to Hanoi, Vietnam to present three accepted papers at the 8th International Conference on Smart Computing and Informatics (SCI 2026), hosted by Swinburne University Vietnam.\n\n**Papers presented:**\n\n1. *Adaptive PQC Key-Encapsulation for High-Reliability Multipath QUIC Telemetry* — a quantum-resistant communication framework using NIST Level-3 lattice-based KEM over multipath QUIC for mission-critical networks.\n\n2. *LLM-Based Courtroom Simulation for Exploring Indian Civil Law Cases* — a multi-agent LLM platform for structured legal analysis of Indian civil law corpora, reducing manual review time by 75%.\n\n3. *GANs in Urban Digital Twins: Systematic Review and Architecture for Policy Simulation* — a systematic literature review across 40+ papers and a proposed GAN-based simulation architecture for data-constrained cities.\n\nReceived a Certificate of Appreciation from Swinburne University for the presentations. The conference brought together researchers from across Southeast Asia and beyond.",
+    "image": "/images/news/sci-2026-presentation.jpg",
+    "image_caption": "SCI 2026 · Swinburne University Vietnam · Hanoi · April 2026",
+    "display_order": 0
+  },
+  {
+    "id": "pbl2-first-rank-news",
+    "slug": "pbl2-first-rank",
+    "title": "Group 61 Secures 1st Rank in PBL-2 — CS Department",
+    "category": "achievement",
+    "tags": ["PBL", "award", "SIT Pune", "team"],
+    "published_date": "2025-05-07",
+    "published": true,
+    "body_md": "Group 61 secured 1st Rank in PBL-2 (Project-Based Learning, Phase 2) across the entire Computer Science department at Symbiosis Institute of Technology, Pune.\n\nThe evaluation was conducted by an independent jury of industry experts — not faculty — which makes this result especially meaningful. The jury assessed technical depth, real-world applicability, and presentation quality across all CS department teams.\n\n**Team:** Anshul Ravindra Mandekar, Avi S Gupta, Aman Vats, Mayank Rajesh Hete.",
+    "image": "/images/achievements/pbl-first-rank.jpg",
+    "image_caption": "PBL-2 Award Ceremony · SIT Pune · May 2025",
+    "display_order": 1
+  }
+]
