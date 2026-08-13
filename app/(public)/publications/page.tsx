@@ -27,7 +27,7 @@ export default async function PublicationsPage() {
           PUBLICATIONS
         </h1>
         <p className="font-sans text-2xl font-bold text-paper max-w-2xl">
-          5 papers · IEEE ICETCI · ICMEET · Springer LNNS SCI 2026
+          3 papers · SCI 2026 · Swinburne University, Hanoi Vietnam
         </p>
       </div>
 

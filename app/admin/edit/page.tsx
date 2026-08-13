@@ -1,4 +1,4 @@
-import JsonEditor from '@/components/admin/JsonEditor'
+import EditChatbot from '@/components/admin/EditChatbot'
 import { getSession } from '@/lib/auth'
 import { redirect } from 'next/navigation'
 
@@ -9,5 +9,5 @@ export default async function EditPage() {
   if (!session) {
     redirect('/admin/login')
   }
-  return <JsonEditor />
+  return <EditChatbot />
 }

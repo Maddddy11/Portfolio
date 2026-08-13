@@ -3,28 +3,28 @@
   "photo_caption": "FILE 003 / 047 · HANOI VN · 04.2026 · F/1.8 · 1/250s · ISO 200",
   "display_name_line1": "MAYANK",
   "display_name_line2": "HETE",
-  "tagline": "AI Engineering Intern. 5× Published. CCNA Certified. Enterprise AI · LLM Optimization · Compliance.",
+  "tagline": "AI Research Consultant. 5× Published. CCNA Certified. Basel III & GDPR Compliance.",
   "status_lines": [
     "SYSTEM: ONLINE",
-    "ROLE: ai_engineering_intern",
+    "ROLE: ai_research_consultant",
     "CURRENT: heidelai + technowgreen",
     "LOCATION: 18.5204°N, 73.8567°E",
-    "CGPA: 8.00 / 10.0"
+    "CGPA: 8.0 / 10.0"
   ],
   "cta_primary": { "label": "VIEW PROJECTS", "href": "/projects" },
   "cta_secondary": { "label": "GET IN TOUCH", "href": "/contact" },
   "cta_tertiary": { "label": "GITHUB", "href": "https://github.com/Rancidcake" },
   "ticker_items": [
-    "WORK: ai_engineering_intern @ heidelai",
-    "EXPERTISE: enterprise_ai • llm_optimization • compliance",
+    "WORK: ai_research_consultant",
+    "EXPERTISE: bfsi_compliance • governance • infrastructure",
     "PUBLISHED: 5_peer_reviewed_papers",
-    "CERTIFIED: ccna • nutanix • langchain",
+    "CERTIFIED: ccna • nutanix • lca",
     "EMAIL: mayankrajeshhete@gmail.com"
   ],
   "stats": [
     { "value": 5, "suffix": "×", "label": "Published Papers" },
-    { "value": 4, "suffix": "+", "label": "Major Projects" },
+    { "value": 3, "suffix": "+", "label": "Major Projects" },
     { "value": 8.0, "suffix": "", "label": "CGPA" },
-    { "value": 800, "suffix": "+", "label": "Tenant Platform" }
+    { "value": 40, "suffix": "%", "label": "Token Optimization" }
   ]
 }

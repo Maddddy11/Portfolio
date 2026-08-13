@@ -6,30 +6,30 @@ import { InlineEditButton } from './InlineEditButton'
 
 const STATUS_LINES = [
   'SYSTEM: ONLINE',
-  'ROLE: ai_engineering_intern',
-  'CURRENT: heidelai + technowgreen',
+  'ROLE: research_engineer',
+  'STATUS: available_q1_2027',
   'LOCATION: 18.5204°N, 73.8567°E',
-  'CGPA: 8.00 / 10.0',
+  'LAST_DEPLOY: auto',
 ]
 
 const TICKER_ITEMS = [
-  'WORK: ai_engineering_intern @ heidelai',
+  'AVAILABLE FOR: research_internships',
   '///',
-  'expertise: enterprise_ai • llm_optimization',
+  'ai_ml_engineering',
   '///',
-  'PUBLISHED: 5_peer_reviewed_papers',
+  'pqc_security',
   '///',
-  'CERTIFIED: ccna • nutanix • langchain',
+  'start_date: jan_2027',
   '///',
   'contact: mayankrajeshhete@gmail.com',
   '///',
 ]
 
 const STATS = [
-  { value: 5,   suffix: '×', label: 'Published Papers' },
-  { value: 4,   suffix: '+', label: 'Projects' },
-  { value: 8.0, suffix: '',  label: 'CGPA' },
-  { value: 800, suffix: '+', label: 'Tenant Platform' },
+  { value: 3,    suffix: '×',      label: 'SCI Papers' },
+  { value: 4,    suffix: '+',      label: 'Projects' },
+  { value: 7.89, suffix: '',       label: 'CGPA' },
+  { value: 16,   suffix: '-Agent', label: 'Pipeline' },
 ]
 
 export default function Hero() {
@@ -134,7 +134,7 @@ export default function Hero() {
                   className="bg-ink border-4 border-soviet p-4 shadow-[8px_8px_0px_0px_#E52E2D] inline-block mb-8 animate-fade-up animation-delay-300"
                 >
                   <p className="font-sans text-xl text-paper font-bold max-w-md">
-                    AI ENGINEERING · LLM OPTIMIZATION · ENTERPRISE COMPLIANCE.
+                    BUILDING AGENTIC SYSTEMS FOR HIGH-STAKES DOMAINS.
                   </p>
                 </div>
 
@@ -216,8 +216,8 @@ export default function Hero() {
 
               {/* Floating stat badge */}
               <div className="absolute -left-12 top-1/3 border-4 border-ink bg-soviet px-6 py-4 shadow-[8px_8px_0px_0px_#000000] -rotate-6">
-                <p className="font-mono text-sm text-paper font-bold uppercase tracking-widest border-b-2 border-ink pb-1 mb-2">IEEE · SPRINGER</p>
-                <p className="font-display text-6xl text-ink leading-none">5×</p>
+                <p className="font-mono text-sm text-paper font-bold uppercase tracking-widest border-b-2 border-ink pb-1 mb-2">SCI 2026</p>
+                <p className="font-display text-6xl text-ink leading-none">3×</p>
                 <p className="font-mono text-sm font-bold text-ink mt-1 uppercase">Papers</p>
               </div>
             </div>

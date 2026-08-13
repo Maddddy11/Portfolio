@@ -2,18 +2,13 @@
   {
     "id": "heidelai-2026",
     "organization": "Heidelai Limited (Derivative AI Pvt. Ltd.)",
-    "role": "AI Engineering Intern",
+    "role": "AI Research Consultant and Project Manager",
     "location": "Pune, India",
-    "type": "Internship",
+    "type": "Full-Time",
     "start_date": "2026-07-01",
     "end_date": null,
-    "description_md": "- **Token Optimization:** Profiling production LLM API endpoints to eliminate context bloat and rewrite prompt structures; reduced token consumption while integrating changes into live backends without service interruption.",
-    "tech": [
-      "LLM Optimization",
-      "Prompt Engineering",
-      "Python",
-      "Backend Development"
-    ],
+    "description_md": "- Track sprint timelines, milestone deliverables, and maintain technical documentation; write progress reports for technical stakeholders and coordinate cross-functionally between engineering and research teams.\n- Profile LLM token bottlenecks, restructure prompt logic, and integrate production backend changes without service disruption, achieving a 30-40% reduction in redundant token consumption.\n- Lead technical strategy and roadmap planning for AI research initiatives.",
+    "tech": ["LLM Optimization", "Project Management", "Documentation", "Technical Leadership"],
     "display_order": 0
   },
   {
@@ -23,18 +18,9 @@
     "location": "Pune, India",
     "type": "Full-Time",
     "start_date": "2026-06-01",
-    "end_date": "2026-07-01",
-    "description_md": "- **Enterprise Orchestration:** Designing agent orchestration for an 800+ tenant platform on NVIDIA AI-Q; engineered MAS state handoffs, data pipelines, and CI/CD workflows mapped across 5 compliance frameworks (GDPR, DPDP, HIPAA, SOC 2, CCPA).\n- **Quality Assurance:** Formulated 10–70 automated test cases per feature sprint to validate hallucination rates and context grounding.",
-    "tech": [
-      "NVIDIA AI-Q",
-      "Multi-Agent Systems",
-      "GDPR",
-      "DPDP",
-      "HIPAA",
-      "SOC 2",
-      "CCPA",
-      "CI/CD"
-    ],
+    "end_date": null,
+    "description_md": "- Coordinate IT rollout for an 800+ tenant platform on NVIDIA AI-Q and AWS; maintain architectural documentation and report progress to executive stakeholders.\n- Map compliance controls to GDPR, DPDP, HIPAA, and SOC 2; partner with security teams to eliminate vulnerabilities prior to production release cycles.\n- Lead enterprise infrastructure deployment and governance compliance initiatives.",
+    "tech": ["NVIDIA AI-Q", "AWS", "GDPR", "HIPAA", "SOC 2", "Compliance", "Infrastructure"],
     "display_order": 1
   },
   {
@@ -42,18 +28,11 @@
     "organization": "RatibPal",
     "role": "Software Engineering Intern",
     "location": "Remote",
-    "type": "Internship",
+    "type": "Full-Time Internship",
     "start_date": "2025-06-01",
     "end_date": "2025-12-31",
-    "description_md": "- **Backend Development:** Engineered 8+ REST API endpoints on AWS, cutting incident triage time by 40% via CloudWatch logging; built an offline-first SQLite synchronization layer handling 100+ daily transactions with zero data loss.",
-    "tech": [
-      "Python",
-      "REST APIs",
-      "AWS",
-      "CloudWatch",
-      "SQLite",
-      "Microservices"
-    ],
+    "description_md": "- Built and monitored 8+ production REST API endpoints on AWS (EC2, CloudWatch); maintained uptime dashboards and structured logging to cut incident triage time by 40%.\n- Managed an offline-first SQLite synchronization engine handling 100+ daily transactions with zero data loss.\n- Improved system observability through automated alerting pipelines and structured logging across cloud-hosted microservices.",
+    "tech": ["Python", "REST APIs", "SQLite", "AWS CloudWatch", "AWS EC2", "Microservices"],
     "display_order": 2
   }
 ]

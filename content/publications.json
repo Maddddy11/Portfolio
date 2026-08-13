@@ -1,33 +1,7 @@
 [
   {
-    "id": "pqc-quic-2026",
-    "title": "Adaptive PQC Key-Encapsulation for Multipath QUIC Telemetry",
-    "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
-    "venue_short": "Springer LNNS 2026",
-    "location": "Swinburne University, Hanoi, Vietnam",
-    "authors": "Mayank Rajesh Hete (1st Author) et al.",
-    "abstract": "Designed a quantum-resistant communication framework using NIST Level-3 PQC primitives (lattice-based KEM) and multipath QUIC transport protocol for mission-critical networks. Published in Springer LNNS conference proceedings.",
-    "pdf_url": null,
-    "published_date": "2026-04-28",
-    "bibtex": "@inproceedings{hete2026pqcquic,\n  title={Adaptive PQC Key-Encapsulation for Multipath QUIC Telemetry},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
-    "display_order": 0
-  },
-  {
-    "id": "quantum-safe-icmeet-2026",
-    "title": "Quantum-Safe Microservices in Financial Infrastructure",
-    "venue": "ICMEET 2026",
-    "venue_short": "ICMEET 2026",
-    "location": "Online",
-    "authors": "Mayank Rajesh Hete (1st Author)",
-    "abstract": "First-author research on quantum-safe microservice architectures for financial infrastructure, addressing post-quantum cryptography migration paths for production BFSI systems.",
-    "pdf_url": null,
-    "published_date": "2026-01-01",
-    "bibtex": "@inproceedings{hete2026quantumsafe,\n  title={Quantum-Safe Microservices in Financial Infrastructure},\n  author={Hete, Mayank Rajesh},\n  booktitle={ICMEET 2026},\n  year={2026}\n}",
-    "display_order": 1
-  },
-  {
     "id": "fraud-detection-ieee-2026",
-    "title": "ML Fraud Detection in Financial Systems",
+    "title": "Fraud Detection in Financial Systems (1st Author)",
     "venue": "IEEE ICETCI 2026",
     "venue_short": "IEEE ICETCI 2026",
     "location": "Online",
@@ -35,33 +9,59 @@
     "abstract": "First-author peer-reviewed publication on advanced fraud detection techniques in financial systems using machine learning and anomaly detection patterns.",
     "pdf_url": null,
     "published_date": "2026-01-15",
-    "bibtex": "@inproceedings{hete2026fraud,\n  title={ML Fraud Detection in Financial Systems},\n  author={Hete, Mayank Rajesh},\n  booktitle={IEEE ICETCI 2026},\n  year={2026}\n}",
-    "display_order": 2
+    "bibtex": "@inproceedings{hete2026fraud,\n  title={Fraud Detection in Financial Systems},\n  author={Hete, Mayank Rajesh},\n  booktitle={IEEE ICETCI 2026},\n  year={2026}\n}",
+    "display_order": 0
+  },
+  {
+    "id": "pqc-quic-2026",
+    "title": "Adaptive PQC Key-Encapsulation for High-Reliability Multipath QUIC Telemetry",
+    "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
+    "venue_short": "SCI 2026 (Springer LNNS)",
+    "location": "Swinburne University, Hanoi, Vietnam",
+    "authors": "Mayank Rajesh Hete (1st Author) et al.",
+    "abstract": "Designed a quantum-resistant communication framework using NIST Level-3 PQC primitives (lattice-based KEM) and multipath QUIC transport protocol for mission-critical networks. Published in Springer LNNS conference proceedings.",
+    "pdf_url": null,
+    "published_date": "2026-04-28",
+    "bibtex": "@inproceedings{hete2026pqcquic,\n  title={Adaptive PQC Key-Encapsulation for High-Reliability Multipath QUIC Telemetry},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
+    "display_order": 1
   },
   {
     "id": "courtroom-llm-2026",
-    "title": "LLM Courtroom Simulation",
+    "title": "LLM-Based Courtroom Simulation for Exploring Indian Civil Law Cases",
     "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
-    "venue_short": "Springer LNNS 2026",
+    "venue_short": "SCI 2026 (Springer LNNS)",
     "location": "Swinburne University, Hanoi, Vietnam",
     "authors": "Mayank Rajesh Hete (2nd Author) et al.",
     "abstract": "Built a multi-agent LLM platform processing unstructured Indian civil law corpora; applied NLP pipelines for role classification, argument extraction, and procedural simulation. Published in Springer LNNS.",
     "pdf_url": null,
     "published_date": "2026-04-28",
-    "bibtex": "@inproceedings{hete2026courtroom,\n  title={LLM Courtroom Simulation},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
-    "display_order": 3
+    "bibtex": "@inproceedings{hete2026courtroom,\n  title={LLM-Based Courtroom Simulation for Exploring Indian Civil Law Cases},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
+    "display_order": 2
   },
   {
     "id": "gans-urban-2026",
-    "title": "GANs in Urban Digital Twins",
+    "title": "GANs in Urban Digital Twins: Systematic Review and Architecture for Policy Simulation",
     "venue": "SCI 2026 — 8th International Conference on Smart Computing and Informatics",
-    "venue_short": "Springer LNNS 2026",
+    "venue_short": "SCI 2026 (Springer LNNS)",
     "location": "Swinburne University, Hanoi, Vietnam",
     "authors": "Mayank Rajesh Hete (3rd Author) et al.",
     "abstract": "Conducted a systematic literature review synthesizing 40+ papers across six urban AI domains; proposed a GAN-based simulation architecture for data-constrained developing cities. Published in Springer LNNS.",
     "pdf_url": null,
     "published_date": "2026-04-28",
-    "bibtex": "@inproceedings{hete2026gans,\n  title={GANs in Urban Digital Twins},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
+    "bibtex": "@inproceedings{hete2026gans,\n  title={GANs in Urban Digital Twins: Systematic Review and Architecture for Policy Simulation},\n  author={Hete, Mayank Rajesh and others},\n  booktitle={Springer LNNS SCI 2026},\n  year={2026}\n}",
+    "display_order": 3
+  },
+  {
+    "id": "fintech-2026",
+    "title": "FinTech Research Paper (1st Author)",
+    "venue": "SCI 2026 FinTech Track",
+    "venue_short": "SCI 2026 FinTech",
+    "location": "Swinburne University, Hanoi, Vietnam",
+    "authors": "Mayank Rajesh Hete (1st Author)",
+    "abstract": "First-author research publication on financial technology innovations, focusing on compliance and risk assessment frameworks.",
+    "pdf_url": null,
+    "published_date": "2026-04-28",
+    "bibtex": "@inproceedings{hete2026fintech,\n  title={FinTech Research Paper},\n  author={Hete, Mayank Rajesh},\n  booktitle={SCI 2026 FinTech Track},\n  year={2026}\n}",
     "display_order": 4
   }
 ]

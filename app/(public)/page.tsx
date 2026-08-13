@@ -1,22 +1,45 @@
 import Link from 'next/link'
 import Hero from '@/components/public/Hero'
+import NewsCard from '@/components/public/NewsCard'
 import ProjectCard from '@/components/public/ProjectCard'
-import { getFeaturedProjects } from '@/lib/content'
+import { getFeaturedProjects, getNews } from '@/lib/content'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Mayank Hete — AI Engineering & LLM Infrastructure',
-  description: 'Final-year CS engineer at SIT Pune. 5× peer-reviewed researcher. AI Engineering Intern at Heidelai. Building enterprise AI, LLM optimization, and compliance platforms.',
+  title: 'Mayank Hete — Agentic AI & Post-Quantum Cryptography',
+  description: 'Final-year CS engineer at SIT Pune. 3× SCI-indexed researcher building at the intersection of Agentic AI, PQC, and ML governance.',
 }
 
 export const revalidate = 3600
 
 export default async function HomePage() {
-  const projects = await getFeaturedProjects()
+  const [news, projects] = await Promise.all([
+    getNews().then(n => n.slice(0, 3)),
+    getFeaturedProjects(),
+  ])
 
   return (
     <>
       <Hero />
+
+      {/* Latest News */}
+      <section className="max-w-7xl mx-auto px-4 py-24 border-x-8 border-ink bg-paper">
+        <div className="flex items-center justify-between mb-12 border-b-8 border-ink pb-4">
+          <h2 className="section-heading font-display uppercase text-ink">
+            Latest Updates
+          </h2>
+          <Link href="/news" className="font-mono text-xl text-ink font-bold hover:text-soviet uppercase tracking-widest bg-ink text-paper px-4 py-2 hover:bg-soviet transition-colors">
+            ALL NEWS →
+          </Link>
+        </div>
+        <div className="space-y-8">
+          {news.length > 0 ? (
+            news.map(item => <NewsCard key={item.id} item={item} />)
+          ) : (
+            <p className="font-mono text-xl font-bold text-ink border-4 border-ink p-8 shadow-[8px_8px_0px_0px_#E52E2D]">NO UPDATES YET. CHECK BACK SOON.</p>
+          )}
+        </div>
+      </section>
 
       {/* Featured Projects */}
       <section className="bg-ink border-y-8 border-ink py-24 relative overflow-hidden">

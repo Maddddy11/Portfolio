@@ -38,7 +38,7 @@ export default function BootSequence() {
           <div className="absolute bottom-0 left-0 w-3 h-3 bg-soviet -translate-x-1.5 translate-y-1.5" />
           <div className="absolute bottom-0 right-0 w-3 h-3 bg-soviet translate-x-1.5 translate-y-1.5" />
 
-          <p className="text-soviet mb-6 animate-pulse-slow font-bold text-xl uppercase tracking-widest">// INITIALIZING MH.KERNEL...</p>
+          <p className="text-soviet mb-6 animate-pulse-slow font-bold text-xl uppercase tracking-widest">// INITIALIZING PIZDA KERNEL...</p>
           
           <div className="space-y-3 font-bold">
             <p className={`transition-opacity duration-150 ${step >= 1 ? 'opacity-100' : 'opacity-0'}`}>

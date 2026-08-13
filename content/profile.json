@@ -1,8 +1,8 @@
 {
   "name": "Mayank Hete",
-  "tagline": "Building enterprise AI systems at the intersection of LLM optimization, compliance, and financial infrastructure.",
-  "bio_short": "Final-year B.Tech CS student at SIT Pune (CGPA: 8.00/10). AI Engineering Intern at Heidelai & AI Research Consultant at Technowgreen. 5× published researcher across IEEE and Springer. CCNA certified.",
-  "bio_long": "I'm a final-year B.Tech Computer Science & Engineering student at Symbiosis Institute of Technology, Pune (CGPA: 8.00/10), specializing in enterprise AI infrastructure, backend platforms, and financial analytics software.\n\nCurrently engineering production LLM optimizations at Heidelai (Derivative AI Pvt. Ltd.), profiling LLM API endpoints to eliminate context bloat and rewrite prompt structures without service disruption. I consulted at Technowgreen Solutions on an 800+ tenant enterprise AI platform on NVIDIA AI-Q, designing agent orchestration, MAS state handoffs, and CI/CD workflows mapped across 5 compliance frameworks (GDPR, DPDP, HIPAA, SOC 2, CCPA).\n\nMy projects span explainable financial analytics (Finveritas — Rank 1, PBL-2 Conclave 2026), industrial audit pipelines (FORGE), AI governance gateways (Argus), and agentic legal intelligence (Lex Orion). I've published 5 peer-reviewed papers across IEEE and Springer LNNS, presented internationally at Swinburne University, Vietnam.\n\nSeeking research internships and AI/ML engineering roles in security-focused or LLM-driven product teams.",
+  "tagline": "Building agentic systems for high-stakes domains.",
+  "bio_short": "Final-year B.Tech CS student at SIT Pune (CGPA: 8.0/10). AI Research Consultant at Heidelai & Technowgreen. 5× published researcher across IEEE and Springer. CCNA certified.",
+  "bio_long": "I'm a final-year B.Tech Computer Science & Engineering student at Symbiosis Institute of Technology, Pune (CGPA: 8.0/10), specializing in AI project management, enterprise infrastructure, IT audit compliance, and financial systems engineering.\n\nCurrently serving as AI Research Consultant and Project Manager at Heidelai, where I lead cross-functional teams, manage sprint timelines, and optimize LLM token efficiency (30-40% reduction). I also consult at Technowgreen Solutions on enterprise IT deployment and governance compliance (GDPR, DPDP, HIPAA, SOC 2).\n\nMy research spans financial analytics, IT audit platforms, and API security. I designed Basel III and RBI NBFC/BFSI compliant analytics tools, and won 1st Rank at the PBL-2 Industry Conclave 2026. Published 5 peer-reviewed papers across IEEE ICETCI 2026 and Springer LNNS SCI-2026.\n\nCCNA certified in TCP/IP, routing, switching, and network security. Currently seeking opportunities in AI/ML engineering, research, and infrastructure roles.",
   "location": "Pune, India",
   "coordinates": "18.5204°N, 73.8567°E",
   "email": "mayankrajeshhete@gmail.com",
@@ -10,111 +10,30 @@
   "linkedin": "https://linkedin.com/in/mayankhete",
   "github": "https://github.com/Rancidcake",
   "status": "available_q1_2027",
-  "role": "ai_engineering_intern",
-  "seeking": [
-    "research_internships",
-    "ai_ml_engineering",
-    "llm_infrastructure"
-  ],
+  "role": "research_engineer",
+  "seeking": ["research_internships", "ai_ml_engineering", "pqc_security"],
   "education": {
     "degree": "B.Tech Computer Science & Engineering",
     "institution": "Symbiosis Institute of Technology, Pune",
     "expected": "April 2027",
-    "cgpa": "8.00 / 10.0",
-    "coursework": [
-      "Data Structures & Algorithms",
-      "DBMS",
-      "Cryptography",
-      "Network Security",
-      "Financial Computing",
-      "Distributed Systems",
-      "Operating Systems"
-    ]
+    "cgpa": "7.89 / 10.0",
+    "coursework": ["Cryptography", "Network Security", "Data Analytics", "Database Management Systems", "Systems Programming"]
   },
   "skills": {
-    "Languages": [
-      "Python (strong)",
-      "JavaScript",
-      "TypeScript",
-      "Java",
-      "C++",
-      "SQL",
-      "Swift (iOS)",
-      "Shell Scripting"
-    ],
-    "AI & Frameworks": [
-      "LangChain",
-      "LangGraph",
-      "RAG",
-      "FAISS",
-      "ChromaDB",
-      "Multi-Agent Orchestration",
-      "Prompt Engineering",
-      "NVIDIA AI-Q"
-    ],
-    "Backend & Data": [
-      "FastAPI",
-      "Node.js",
-      "REST",
-      "WebSocket",
-      "JWT",
-      "PostgreSQL",
-      "MySQL",
-      "Redis",
-      "DuckDB",
-      "dbt",
-      "SQLite",
-      "Docker",
-      "AWS"
-    ],
-    "Security & Compliance": [
-      "RBAC",
-      "OPA/Rego",
-      "Microsoft Presidio (PII)",
-      "XGBoost + SHAP",
-      "Audit Trails",
-      "GDPR",
-      "DPDP",
-      "HIPAA",
-      "SOC 2"
-    ],
-    "Tools & Operations": [
-      "Git",
-      "Jira (Agile/Scrum)",
-      "Postman",
-      "GitHub Actions",
-      "Streamlit",
-      "React",
-      "n8n",
-      "BRD",
-      "IEEE 830 SRS Documentation"
-    ]
+    "Programming Languages": ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Go", "SQL", "Shell Scripting"],
+    "AI / Machine Learning": ["Large Language Models", "Agentic AI", "RAG", "NLP", "Prompt Engineering", "Fine-tuning", "Hugging Face Transformers"],
+    "AI Frameworks": ["LangChain", "CrewAI", "AutoGen", "MCP", "Streamlit", "FastAPI"],
+    "Vector Databases": ["FAISS", "ChromaDB", "Pinecone"],
+    "BFSI & Compliance": ["Basel III Pillar-2", "RBI NBFC/BFSI Standards", "GDPR", "DPDP", "HIPAA", "SOC 2", "IT Audit", "Risk Compliance"],
+    "Cloud & Infrastructure": ["AWS (EC2, CloudWatch, S3)", "Azure", "Docker", "GitHub Actions (CI/CD)", "NVIDIA AI-Q", "Nutanix NCA-6", "IBM Cloud", "Redis", "PostgreSQL", "DuckDB", "Linux", "REST APIs"],
+    "Project Management": ["Sprint Tracking", "Milestone Documentation", "Progress Reporting", "Jira (Agile/Scrum)", "BRD", "IEEE 830 SRS", "MoSCoW Prioritization"],
+    "Networking & Security": ["TCP/IP", "DNS", "HTTP/S", "CCNA (Cisco)", "Shell Scripting", "RBAC", "JWT Auth", "OPA/Rego", "PII Detection", "Audit Logging"]
   },
   "certifications": [
-    {
-      "name": "LangChain Academy",
-      "issuer": "LangChain",
-      "year": 2026
-    },
-    {
-      "name": "Cisco CCNA",
-      "issuer": "Cisco",
-      "year": 2025
-    },
-    {
-      "name": "Nutanix NCA-6",
-      "issuer": "Nutanix",
-      "year": 2025
-    },
-    {
-      "name": "IBM Cloud Computing",
-      "issuer": "IBM",
-      "year": 2026
-    },
-    {
-      "name": "Full Stack GenAI & Agentic AI",
-      "issuer": "Certified Program",
-      "year": 2026
-    }
+    { "name": "Cisco CCNA (TCP/IP, Routing, Switching, Security)", "year": 2025 },
+    { "name": "Nutanix NCA-6", "year": 2025 },
+    { "name": "IBM SkillsBuild Cloud", "year": 2026 },
+    { "name": "LangChain Academy", "year": 2026 },
+    { "name": "ISTQB Foundation (In Progress)", "year": 2026 }
   ]
 }
