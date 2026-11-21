@@ -26,12 +26,12 @@ const bebasNeue = Bebas_Neue({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Mayank Hete — Agentic AI & Post-Quantum Cryptography',
+    default: 'Mayank Hete — AI Governance & Security',
     template: '%s | Mayank Hete',
   },
   description:
-    'Final-year CS engineer at Symbiosis Institute of Technology, Pune. Building at the intersection of Agentic AI, Post-Quantum Cryptography, and ML governance. 3× SCI-indexed researcher.',
-  keywords: ['Mayank Hete', 'Agentic AI', 'Post-Quantum Cryptography', 'PQC', 'Machine Learning', 'SIT Pune', 'CRYSTALS-Dilithium', 'Multi-agent LLM'],
+    'Computer Science student at Symbiosis Institute of Technology, Pune, focused on AI governance, data protection technology, and AI security. 5× peer-reviewed researcher.',
+  keywords: ['Mayank Hete', 'AI Governance', 'Data Protection', 'AI Security', 'EU AI Act', 'GDPR', 'DPDP Act', 'SIT Pune', 'LLM'],
   authors: [{ name: 'Mayank Hete', url: 'https://linkedin.com/in/mayankhete' }],
   creator: 'Mayank Hete',
   openGraph: {
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: '/',
     siteName: 'Mayank Hete',
-    title: 'Mayank Hete — Agentic AI & Post-Quantum Cryptography',
-    description: 'Final-year CS engineer at SIT Pune. 3× SCI-indexed researcher. Building at the frontier of Agentic AI and PQC.',
+    title: 'Mayank Hete — AI Governance & Security',
+    description: 'Computer Science student at SIT Pune focused on AI governance, data protection technology, and AI security.',
     images: [{ url: '/og-default.png', width: 1200, height: 630, alt: 'Mayank Hete' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mayank Hete — Agentic AI & PQC',
-    description: 'Final-year CS engineer at SIT Pune. 3× SCI-indexed researcher.',
+    title: 'Mayank Hete — AI Governance & Security',
+    description: 'Computer Science student at SIT Pune focused on AI governance, data protection technology, and AI security.',
     images: ['/og-default.png'],
   },
   robots: {

@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <p className="font-display text-4xl text-paper mb-4 uppercase tracking-widest">MAYANK HETE</p>
           <div className="border-l-4 border-soviet pl-4 space-y-1">
-            <p className="font-mono text-sm text-paper/80 uppercase">Agentic AI · PQC · ML Governance</p>
+            <p className="font-mono text-sm text-paper/80 uppercase">AI Governance · Data Protection · AI Security</p>
             <p className="font-mono text-sm text-paper/80 uppercase">SIT Pune · B.Tech CSE · Expected 2027</p>
           </div>
         </div>
