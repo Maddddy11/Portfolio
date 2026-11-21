@@ -1,4 +1,5 @@
 import { getExperience } from '@/lib/content'
+import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Badge from '@/components/ui/Badge'
@@ -8,7 +9,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Experience',
-  description: "Mayank Hete's professional experience — software engineering internship at RatibPal and leadership roles.",
+  description: "Mayank Hete's experience in AI engineering, AI governance, and the NewDaySys responsible AI and cybersecurity training program.",
 }
 
 export const revalidate = 3600
@@ -28,7 +29,7 @@ export default async function ExperiencePage() {
           PROFESSIONAL <span className="text-soviet">EXPERIENCE</span>
         </h1>
         <p className="font-sans text-2xl font-bold text-paper max-w-2xl">
-          Building production systems and leading technical initiatives
+          AI engineering, privacy research, and international AI training
         </p>
       </div>
 
@@ -51,9 +52,9 @@ export default async function ExperiencePage() {
                   </div>
                   <div className="text-right">
                     <p className="font-display text-2xl text-soviet tracking-wider">
-                      {formatDate(exp.start_date)} — {exp.end_date ? formatDate(exp.end_date) : 'PRESENT'}
+                      {exp.date_label ?? `${formatDate(exp.start_date)}${exp.end_date && formatDate(exp.start_date) !== formatDate(exp.end_date) ? ` — ${formatDate(exp.end_date)}` : !exp.end_date ? ' — PRESENT' : ''}`}
                     </p>
-                    {!exp.end_date && <span className="bg-soviet text-paper font-display text-lg uppercase px-3 py-1 border-2 border-ink shadow-[4px_4px_0px_0px_#000000] inline-block mt-2">CURRENT</span>}
+                    {!exp.end_date && !exp.date_label && <span className="bg-soviet text-paper font-display text-lg uppercase px-3 py-1 border-2 border-ink shadow-[4px_4px_0px_0px_#000000] inline-block mt-2">CURRENT</span>}
                   </div>
                 </div>
 
@@ -66,6 +67,27 @@ export default async function ExperiencePage() {
                     {exp.description_md}
                   </ReactMarkdown>
                 </div>
+
+                {exp.images && exp.images.length > 0 && (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    {exp.images.map((image, index) => (
+                      <figure key={image.src} className="overflow-hidden border-4 border-ink bg-ink shadow-[6px_6px_0px_0px_#E52E2D]">
+                        <div className={`relative ${index === 0 ? 'aspect-[4/5]' : 'aspect-[4/3]'}`}>
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            className="object-cover"
+                          />
+                        </div>
+                        <figcaption className="border-t-4 border-paper px-4 py-3 font-mono text-xs font-bold uppercase tracking-wide text-paper">
+                          {image.caption}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                )}
 
                 {exp.tech.length > 0 && (
                   <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t-4 border-ink">

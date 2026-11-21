@@ -39,8 +39,14 @@ export const ExperienceSchema = z.object({
   type: z.string(),
   start_date: z.string(),
   end_date: z.string().nullable(),
+  date_label: z.string().optional(),
   description_md: z.string(),
   tech: z.array(z.string()),
+  images: z.array(z.object({
+    src: z.string(),
+    alt: z.string(),
+    caption: z.string(),
+  })).optional(),
   display_order: z.number(),
 })
 export type Experience = z.infer<typeof ExperienceSchema>

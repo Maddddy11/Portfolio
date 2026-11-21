@@ -5,8 +5,8 @@ import { getFeaturedProjects } from '@/lib/content'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Mayank Hete — AI Engineering & LLM Infrastructure',
-  description: 'Final-year CS engineer at SIT Pune. 5× peer-reviewed researcher. AI Engineering Intern at Heidelai. Building enterprise AI, LLM optimization, and compliance platforms.',
+  title: 'Mayank Hete — AI Governance & Data Protection',
+  description: 'Computer Science student at SIT Pune focused on AI governance, privacy engineering, and AI security. 5× peer-reviewed researcher building open-source compliance tools.'
 }
 
 export const revalidate = 3600

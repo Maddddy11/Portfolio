@@ -6,20 +6,20 @@ import { InlineEditButton } from './InlineEditButton'
 
 const STATUS_LINES = [
   'SYSTEM: ONLINE',
-  'ROLE: ai_engineering_intern',
-  'CURRENT: heidelai + technowgreen',
+  'FOCUS: ai_governance + data_protection',
+  'PROGRAM: newdaysys · oct 2026',
   'LOCATION: 18.5204°N, 73.8567°E',
   'CGPA: 8.00 / 10.0',
 ]
 
 const TICKER_ITEMS = [
-  'WORK: ai_engineering_intern @ heidelai',
+  'PROGRAM: scie × newdaysys · responsible_ai',
   '///',
-  'expertise: enterprise_ai • llm_optimization',
+  'expertise: ai_governance • privacy • ai_security',
   '///',
   'PUBLISHED: 5_peer_reviewed_papers',
   '///',
-  'CERTIFIED: ccna • nutanix • langchain',
+  'REGULATIONS: eu_ai_act • gdpr • dpdp • appi',
   '///',
   'contact: mayankrajeshhete@gmail.com',
   '///',
@@ -134,7 +134,7 @@ export default function Hero() {
                   className="bg-ink border-4 border-soviet p-4 shadow-[8px_8px_0px_0px_#E52E2D] inline-block mb-8 animate-fade-up animation-delay-300"
                 >
                   <p className="font-sans text-xl text-paper font-bold max-w-md">
-                    AI ENGINEERING · LLM OPTIMIZATION · ENTERPRISE COMPLIANCE.
+                    AI GOVERNANCE · DATA PROTECTION · AI SECURITY.
                   </p>
                 </div>
 

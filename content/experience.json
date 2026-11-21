@@ -1,5 +1,36 @@
 [
   {
+    "id": "newdaysys-student-buddy-2026",
+    "organization": "Symbiosis Centre for International Education × NewDaySys, Japan",
+    "role": "Student Buddy — AI & Cybersecurity Training Program",
+    "location": "Pune, India",
+    "type": "Training Program",
+    "start_date": "2026-10-01",
+    "end_date": null,
+    "date_label": "OCTOBER 2026",
+    "description_md": "Supported Japanese working professionals throughout a 20-day training program covering responsible AI, AI security and privacy, and secure coding. Recognized with a **Certificate of Appreciation** for student-buddy support.",
+    "tech": [
+      "Responsible AI",
+      "AI Security",
+      "Privacy",
+      "Secure Coding",
+      "Cross-Cultural Collaboration"
+    ],
+    "images": [
+      {
+        "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qhzd9fpGubzEHYNm6ajSYoohYktHWR.png",
+        "alt": "Mayank Hete receiving a certificate at Symbiosis Institute of Technology with two faculty members",
+        "caption": "Certificate of Appreciation presentation · Symbiosis Institute of Technology, Pune"
+      },
+      {
+        "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sNPKxTVsqMx2Ikvu61ThOb3HjwbjFq.png",
+        "alt": "Mayank Hete with Japanese participants from the NewDaySys training program",
+        "caption": "NewDaySys program participants · Pune"
+      }
+    ],
+    "display_order": 0
+  },
+  {
     "id": "heidelai-2026",
     "organization": "Heidelai Limited (Derivative AI Pvt. Ltd.)",
     "role": "AI Engineering Intern",
@@ -14,7 +45,7 @@
       "Python",
       "Backend Development"
     ],
-    "display_order": 0
+    "display_order": 1
   },
   {
     "id": "technowgreen-2026",
@@ -35,7 +66,7 @@
       "CCPA",
       "CI/CD"
     ],
-    "display_order": 1
+    "display_order": 2
   },
   {
     "id": "ratibpal-2025",
@@ -54,6 +85,6 @@
       "SQLite",
       "Microservices"
     ],
-    "display_order": 2
+    "display_order": 3
   }
 ]

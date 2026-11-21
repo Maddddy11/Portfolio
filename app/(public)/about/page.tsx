@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn about Mayank Hete — final-year CS engineer at SIT Pune specializing in Agentic AI, Post-Quantum Cryptography, and ML governance.',
+  description: 'Learn about Mayank Hete, a Computer Science student at SIT Pune focused on AI governance, data protection technology, and AI security.'
 }
 
 export const revalidate = 3600
